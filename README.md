@@ -42,9 +42,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/EidHachem)
-- Twitter: [@twitterhandle](https://twitter.com/eidHachem1)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/eid-hachem)
+- GitHub: [@EidHachem](https://github.com/EidHachem)
+- Twitter: [@eidHachem1](https://twitter.com/eidHachem1)
+- LinkedIn: [eid-hachem](https://linkedin.com/in/eid-hachem)
 
 ## 🤝 Contributing
 
