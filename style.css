@@ -1,3 +1,53 @@
 * {
-  background-color: #E5E5E5;
+  background-color: #191765;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #fff;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-icon {
+  width: 40px;
+  height: 2px;
+  background-color: rgba(172, 183, 195, 1);
+  margin-top: 3px;
+}
+
+.icon1 {
+  width: 33.33332824707031px;
+  left: 8.33349609375px;
+  top: 14.583251953125px;
+  border-radius: 0px;
+}
+
+.icon2 {
+  width: 33.33332824707035px;
+  left: 8.33349609375px;
+  top: 25px;
+  border-radius: 0px;
+}
+
+.icon3 {
+  width: 33.33332824707031px;
+  left: 8.33349609375px;
+  top: 35.41650390625px;
+  border-radius: 0px;
 }
