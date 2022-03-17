@@ -51,3 +51,49 @@ color: #fff;
   top: 35.41650390625px;
   border-radius: 0px;
 }
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+}
+
+.greeting {
+  height: 55px;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+  color: #7D73FC;
+  margin: 12px 0;
+}
+
+.title {
+  height: 87px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #EDECFF;
+  margin: 12px 0;
+}
+
+.title-description {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #C8C8D4;
+  margin: 24px 0;
+  width: 447px;
+}
