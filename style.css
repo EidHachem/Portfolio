@@ -2,7 +2,6 @@
 body {
   background-color: #191765;
   margin: auto;
-  
 }
 
 .head {
@@ -22,6 +21,7 @@ body {
   color: #fff;
   margin-left: 10px;
   margin-top: 5px;
+  text-decoration: none;
 }
 
 .menu {
@@ -68,10 +68,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.name {
-  text-decoration: none;
-}
-
 .greeting {
   height: 55px;
   font-family: Roboto, sans-serif;
@@ -115,6 +111,7 @@ body {
   .headline {
     width: 375px;
   }
+  
   .greeting {
     height: 55px;
   }
