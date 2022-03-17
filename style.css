@@ -1,0 +1,124 @@
+
+body {
+  background-color: #191765;
+  margin: auto;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 0 0 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.menu-icon {
+  width: 40px;
+  height: 2px;
+  background-color: rgba(172, 183, 195, 1);
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.icon1 {
+  width: 33.33332824707031px;
+  left: 8.33349609375px;
+  top: 14.583251953125px;
+  border-radius: 0;
+}
+
+.icon2 {
+  width: 33.33332824707035px;
+  left: 8.33349609375px;
+  top: 25px;
+  border-radius: 0;
+}
+
+.icon3 {
+  width: 33.33332824707031px;
+  left: 8.33349609375px;
+  top: 35.41650390625px;
+  border-radius: 0;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  background-image: url(./images/home/Ellipse\ 18.png);
+  background-repeat: no-repeat;
+  background-position: 0 -10px;
+}
+
+.greeting {
+  height: 55px;
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+  color: #7d73fc;
+  margin: 70px 0 25px;
+}
+
+.title {
+  height: 87px;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #edecff;
+  margin: 12px 0;
+}
+
+.title-description {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #c8c8d4;
+  margin: 24px 0;
+  width: 447px;
+}
+
+@media only screen and (max-width: 375px) {
+  .greeting {
+    height: 55px;
+  }
+
+  .title {
+    height: 87px;
+  }
+
+  .title-description {
+    height: 170px;
+    width: 327px;
+  }
+}

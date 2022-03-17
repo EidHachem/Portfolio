@@ -7,40 +7,36 @@
 
 ## Built With
 
-- HTML/CSS/JS
+- HTML/CSS
 - Frameworks
 - Technologies used
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]("Not available yet")
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Add what you think should be edited in a comment
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+Good knowledge in HTML and CSS
+
 ### Setup
 
-### Install
+Fork and run
 
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 Eid Hachem
 
 - GitHub: [@EidHachem](https://github.com/EidHachem)
 - Twitter: [@eidHachem1](https://twitter.com/eidHachem1)
@@ -50,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/EidHachem/Portfolio/issues).
 
 ## Show your support
 
