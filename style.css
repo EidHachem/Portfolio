@@ -1,65 +1,65 @@
-*  {
+* {
   background-color: #191765;
 }
 
-.head  {
+.head {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.name  {
-font-family: Roboto, sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-align: center;
-color: #fff;
+.name {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
 }
 
-.menu  {
+.menu {
   display: flex;
   flex-direction: column;
 }
 
-.menu-icon  {
+.menu-icon {
   width: 40px;
   height: 2px;
   background-color: rgba(172, 183, 195, 1);
   margin-top: 3px;
 }
 
-.icon1  {
+.icon1 {
   width: 33.33332824707031px;
   left: 8.33349609375px;
   top: 14.583251953125px;
   border-radius: 0;
 }
 
-.icon2  {
+.icon2 {
   width: 33.33332824707035px;
   left: 8.33349609375px;
   top: 25px;
   border-radius: 0;
 }
 
-.icon3  {
+.icon3 {
   width: 33.33332824707031px;
   left: 8.33349609375px;
   top: 35.41650390625px;
   border-radius: 0;
 }
 
-.headline  {
+.headline {
   display: flex;
   flex-direction: column;
   padding: 0;
   align-items: center;
 }
 
-.greeting  {
+.greeting {
   height: 55px;
   font-family: Roboto, sans-serif;
   font-size: 48px;
@@ -68,24 +68,24 @@ color: #fff;
   line-height: 72px;
   letter-spacing: 0.3700000047683716px;
   text-align: center;
-  color: #7D73FC;
+  color: #7d73fc;
   margin: 12px 0;
 }
 
-.title  {
+.title {
   height: 87px;
   font-family: Roboto, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #EDECFF;
   margin: 12px 0;
 }
 
-.title-description  {
+.title-description {
   font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -93,21 +93,21 @@ color: #fff;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: center;
-  color: #C8C8D4;
+  color: #c8c8d4;
   margin: 24px 0;
   width: 447px;
 }
 
 @media only screen and (max-width: 375px) {
-  .greeting{
+  .greeting {
     height: 55px;
   }
 
-  .title  {
+  .title {
     height: 87px;
   }
 
-  .title-description  {
+  .title-description {
     height: 170px;
     width: 327px;
   }
