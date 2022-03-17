@@ -97,3 +97,18 @@ color: #fff;
   margin: 24px 0;
   width: 447px;
 }
+
+@media only screen and (max-width: 375px){
+  .greeting{
+    height: 55px;
+  }
+
+  .title{
+    height: 87px;
+  }
+
+  .title-description {
+    height: 170px;
+    width: 327px;
+  }
+}
