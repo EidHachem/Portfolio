@@ -19,9 +19,8 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: #fff;
-  margin-left: 10px;
-  margin-top: 5px;
   text-decoration: none;
+  padding: 5px 0 0 10px;
 }
 
 .menu {
@@ -36,6 +35,7 @@ body {
   height: 2px;
   background-color: rgba(172, 183, 195, 1);
   margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .icon1 {
@@ -66,6 +66,7 @@ body {
   align-items: center;
   background-image: url(./images/home/Ellipse\ 18.png);
   background-repeat: no-repeat;
+  background-position: 0 -10px;
 }
 
 .greeting {
@@ -78,7 +79,7 @@ body {
   letter-spacing: 0.3700000047683716px;
   text-align: center;
   color: #7d73fc;
-  margin: 12px 0;
+  margin: 70px 0 25px;
 }
 
 .title {
