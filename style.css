@@ -1,15 +1,15 @@
-* {
+*  {
   background-color: #191765;
 }
 
-.head {
+.head  {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.name {
-font-family: Roboto;
+.name  {
+font-family: Roboto, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
@@ -19,49 +19,49 @@ text-align: center;
 color: #fff;
 }
 
-.menu{
+.menu  {
   display: flex;
   flex-direction: column;
 }
 
-.menu-icon {
+.menu-icon  {
   width: 40px;
   height: 2px;
   background-color: rgba(172, 183, 195, 1);
   margin-top: 3px;
 }
 
-.icon1 {
+.icon1  {
   width: 33.33332824707031px;
   left: 8.33349609375px;
   top: 14.583251953125px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
-.icon2 {
+.icon2  {
   width: 33.33332824707035px;
   left: 8.33349609375px;
   top: 25px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
-.icon3 {
+.icon3  {
   width: 33.33332824707031px;
   left: 8.33349609375px;
   top: 35.41650390625px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
-.headline {
+.headline  {
   display: flex;
   flex-direction: column;
   padding: 0;
   align-items: center;
 }
 
-.greeting {
+.greeting  {
   height: 55px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -72,9 +72,9 @@ color: #fff;
   margin: 12px 0;
 }
 
-.title {
+.title  {
   height: 87px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -85,8 +85,8 @@ color: #fff;
   margin: 12px 0;
 }
 
-.title-description {
-  font-family: Roboto;
+.title-description  {
+  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -98,16 +98,16 @@ color: #fff;
   width: 447px;
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px) {
   .greeting{
     height: 55px;
   }
 
-  .title{
+  .title  {
     height: 87px;
   }
 
-  .title-description {
+  .title-description  {
     height: 170px;
     width: 327px;
   }
