@@ -108,7 +108,46 @@ body {
   width: 447px;
 }
 
+hr {
+  background-image: url(images/home/Vector\ 4.svg);
+  width: 448px;
+}
+
+.tech {
+  display: flex;
+  justify-content: space-around;
+  width: 448px;
+  margin-left: 250px;
+}
+
+.tech-list {
+  list-style: none;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.skills {
+  margin-right: 40px;
+}
+
+.tech-title {
+  color: #9390ff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.tech-item {
+  margin: 10px 0 10px;
+}
+
 @media only screen and (max-width: 375px) {
+  body {
+    width: 100%;
+    overflow: scroll;
+  }
   .greeting {
     height: 55px;
   }
@@ -121,4 +160,23 @@ body {
     height: 170px;
     width: 327px;
   }
+
+  hr {
+    width: 350px;
+  }
+
+  .tech {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 0;
+  }
+
+  .tech-list {
+    width: 120px;
+  }
+
+  .frameworks {
+    padding-left: 0;
+  }
 }
+
