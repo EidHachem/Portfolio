@@ -126,11 +126,11 @@ hr {
 
 .tech-list {
   list-style: none;
-  color: #ffffff;
+  color: #fff;
   font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  padding-left: 40;
+  padding-left: 40px;
 }
 
 .skills {
@@ -181,13 +181,12 @@ hr {
 }
 
 .work-header {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
   color: #9390ff;
   line-height: 114px;
-  letter-spacing: 0em;
   margin-top: 150px;
   margin-left: 156px;
 }
@@ -210,7 +209,7 @@ hr {
 .first-project {
   background-image: url(images/home/Ellipse-myRecentWork.svg);
   background-repeat: no-repeat;
-  background-position: 100px 0px;
+  background-position: 100px 0;
 }
 
 .second-project {
@@ -245,25 +244,23 @@ hr {
 .project-title {
   width: 448px;
   height: 105px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
 }
 
 .project-description {
   width: 448px;
   height: 140px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
   text-align: left;
   color: #dfe1e6;
 }
@@ -279,14 +276,13 @@ hr {
 .langs-used {
   width: 31px;
   height: 20px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  letter-spacing: 0em;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
 }
 
 .project-langs > .bootstrap {
@@ -296,11 +292,11 @@ hr {
 .project-button {
   height: 48px;
   width: 106px;
-  left: 0px;
+  left: 0;
   top: 357px;
-  border-radius: 0px;
+  border-radius: 0;
   padding: 12px;
-  color: #ffffff;
+  color: #fff;
   background-color: #9390ff;
   border: none;
 }
@@ -315,6 +311,7 @@ hr {
   .name {
     margin-left: 2px;
   }
+
   .greeting {
     height: 55px;
   }
@@ -363,7 +360,7 @@ hr {
     height: 104px;
     font-size: 40px;
     font-style: normal;
-    font-weight: 500 medium;
+    font-weight: 500;
     color: #9390ff;
     line-height: 52px;
     margin-top: 150px;
@@ -391,18 +388,18 @@ hr {
     margin-bottom: 0;
     padding: 24px 24px 0 24px;
     height: 105px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 44px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .project-description {
     width: 327px;
     height: 204px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -429,14 +426,13 @@ hr {
     height: 48px;
     width: 89px;
     padding: 12px;
-    color: #ffffff;
+    color: #fff;
     background-color: #7d73fc;
     border: none;
   }
 
   .project-image {
     order: -1;
-    /* position: absolute; */
     width: 327px;
     height: 236px;
     padding: 0 24px;
@@ -445,7 +441,7 @@ hr {
   .first-project {
     background-image: url(images/mobile/first.svg);
     background-repeat: no-repeat;
-    background-position: 0px 120px;
+    background-position: 0 120px;
   }
   
   .second-project {
