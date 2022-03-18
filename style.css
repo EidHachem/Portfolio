@@ -465,5 +465,32 @@ hr {
     background-repeat: no-repeat;
     background-position: 200px 290px;
   }
+
+  .github {
+    margin-left: 40px;
+  }
+
+  .gmail {
+    margin-right: 40px;
+  }
+
+  .social-list {
+    padding: 25px 25px;
+  }
+
+  .first-work,
+  .first-arrow {
+    display: none;
+  }
+
+  .second-work {
+    position: absolute;
+    margin-top: 100px;
+  }
+
+  .second-arrow {
+    position: absolute;
+    margin-top: 200px;
+  }
 }
 
