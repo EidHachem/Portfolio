@@ -214,7 +214,7 @@ hr {
 
 .second-project {
   background-image: url(images/home/EllipseSecondProject.svg);
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-position: 1200px 180px;
 }
 
@@ -352,7 +352,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 120px 24px;
+    padding: 25px 25px;
   }
 
   .work-header {
@@ -443,19 +443,19 @@ hr {
     background-repeat: no-repeat;
     background-position: 0 120px;
   }
-  
+
   .second-project {
     background-image: url(images/mobile/second.svg);
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: 250px 180px;
   }
-  
+
   .third-project {
     background-image: url(images/mobile/third.svg);
     background-repeat: no-repeat;
-    background-position: 40 150px;
+    background-position: 40px 150px;
   }
-  
+
   .forth-project {
     background-image: url(images/mobile/forth.svg);
     background-repeat: no-repeat;
@@ -468,10 +468,6 @@ hr {
 
   .gmail {
     margin-right: 40px;
-  }
-
-  .social-list {
-    padding: 25px 25px;
   }
 
   .first-work,
@@ -489,4 +485,3 @@ hr {
     margin-top: 200px;
   }
 }
-
