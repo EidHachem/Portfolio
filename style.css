@@ -207,6 +207,30 @@ hr {
   padding: 10px 50px 50px 156px;
 }
 
+.first-project {
+  background-image: url(images/home/Ellipse-myRecentWork.svg);
+  background-repeat: no-repeat;
+  background-position: 100px 0px;
+}
+
+.second-project {
+  background-image: url(images/home/EllipseSecondProject.svg);
+  background-repeat: no-repeat; 
+  background-position: 1200px 180px;
+}
+
+.third-project {
+  background-image: url(images/home/EllipseThirdLeft.svg);
+  background-repeat: no-repeat;
+  background-position: 0 270px;
+}
+
+.forth-project {
+  background-image: url(images/home/EllipseForthRight.svg);
+  background-repeat: no-repeat;
+  background-position: 1200px -150px;
+}
+
 .project1-image {
   width: 684px;
   height: 448px;
