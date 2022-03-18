@@ -388,7 +388,8 @@ hr {
   }
 
   .project-title {
-    padding: 24px 24px;
+    margin-bottom: 0;
+    padding: 24px 24px 0 24px;
     height: 105px;
     font-family: Roboto;
     font-size: 32px;
@@ -409,6 +410,7 @@ hr {
     text-align: left;
     color: #dcdce8;
     margin-left: 24px;
+    margin-top: 0;
   }
 
   .project-langs {
@@ -438,6 +440,30 @@ hr {
     width: 327px;
     height: 236px;
     padding: 0 24px;
+  }
+
+  .first-project {
+    background-image: url(images/mobile/first.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 120px;
+  }
+  
+  .second-project {
+    background-image: url(images/mobile/second.svg);
+    background-repeat: no-repeat; 
+    background-position: 250px 180px;
+  }
+  
+  .third-project {
+    background-image: url(images/mobile/third.svg);
+    background-repeat: no-repeat;
+    background-position: 40 150px;
+  }
+  
+  .forth-project {
+    background-image: url(images/mobile/forth.svg);
+    background-repeat: no-repeat;
+    background-position: 200px 290px;
   }
 }
 
