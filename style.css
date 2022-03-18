@@ -1,13 +1,17 @@
 
 body {
   background-color: #191765;
-  margin: auto;
+  margin: 0;
+  background-image: url(images/home/circle\ 2\ header.svg);
+  background-repeat: no-repeat;
+  background-position: 1300px 400px;
 }
 
 .head {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 10px;
 }
 
 .name {
@@ -21,6 +25,7 @@ body {
   color: #fff;
   text-decoration: none;
   padding: 5px 0 0 10px;
+  margin-left: 156px;
 }
 
 .menu {
@@ -64,9 +69,10 @@ body {
   flex-direction: column;
   padding: 0;
   align-items: center;
-  background-image: url(./images/home/Ellipse\ 18.png);
+  background-image: url(images/home/circle\ 1\ header.svg);
   background-repeat: no-repeat;
-  background-position: 0 -10px;
+  background-position: -40px 25px;
+  margin-top: 100px;
 }
 
 .greeting {
@@ -115,9 +121,7 @@ hr {
 
 .tech {
   display: flex;
-  justify-content: space-around;
-  width: 448px;
-  margin-left: 250px;
+  justify-content: center;
 }
 
 .tech-list {
@@ -126,6 +130,7 @@ hr {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
+  padding-left: 40;
 }
 
 .skills {
@@ -143,13 +148,156 @@ hr {
   margin: 10px 0 10px;
 }
 
+.social-top {
+  margin-bottom: 100px;
+}
+
+.social-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  color: #babac5;
+}
+
+.social-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.social-item-p-left {
+  margin: 0 2px 0 0;
+}
+
+.social-item-p-right {
+  margin: 0;
+}
+
+.github {
+  margin-left: 376px;
+}
+
+.gmail {
+  margin-right: 376px;
+}
+
+.work-header {
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  color: #9390ff;
+  line-height: 114px;
+  letter-spacing: 0em;
+  margin-top: 150px;
+  margin-left: 156px;
+}
+
+.work-line {
+  width: 100%;
+}
+
+.projects {
+  display: flex;
+  padding-top: 70px;
+}
+
+.project1-image1 {
+  width: 684px;
+  height: 448px;
+  padding: 10px 50px 50px 156px;
+}
+
+.project1-image {
+  width: 684px;
+  height: 448px;
+  padding: 10px 156px 50px 50px;
+}
+
+.project-info1 {
+  width: 448px;
+  padding: 10px 50px 50px 156px;
+}
+
+.project-title {
+  width: 448px;
+  height: 105px;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.project-description {
+  width: 448px;
+  height: 140px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #dfe1e6;
+}
+
+.project-langs {
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.langs-used {
+  width: 31px;
+  height: 20px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.project-langs > .bootstrap {
+  margin-right: 10px;
+}
+
+.project-button {
+  height: 48px;
+  width: 106px;
+  left: 0px;
+  top: 357px;
+  border-radius: 0px;
+  padding: 12px;
+  color: #ffffff;
+  background-color: #9390ff;
+  border: none;
+}
+
 @media only screen and (max-width: 375px) {
   body {
     width: 100%;
+    margin: 1px 2px;
     overflow: scroll;
+  }
+
+  .name {
+    margin-left: 2px;
   }
   .greeting {
     height: 55px;
+  }
+
+  .headline {
+    margin-top: 10px;
+    background-position: -180px -50px;
   }
 
   .title {
