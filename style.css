@@ -447,11 +447,13 @@ hr {
     height: 236px;
     padding: 0 24px;
   }
+
   .first-project {
     background-image: url(images/mobile/first.svg);
     background-repeat: no-repeat;
     background-position: 0 120px;
   }
+
   .second-project {
     background-image: url(images/mobile/second.svg);
     background-repeat: no-repeat;
@@ -501,13 +503,14 @@ hr {
     color: #9390ff;
     align-items: center;
     text-align: center;
-    font-family: 'roboto', sans-serif ;
+    font-family: 'roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     margin-top: 120px;
     margin-bottom: 24px;
   }
+  
   .contact p {
     width: 327px;
     color: #fff;
