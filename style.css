@@ -1,6 +1,5 @@
 body {
   background-color: #191765;
-  margin: 0;
   background-image: url(images/home/circle\ 2\ header.svg);
   background-repeat: no-repeat;
   background-position: 1300px 400px;
@@ -14,7 +13,7 @@ body {
 }
 
 .name {
-  font-family: Roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -76,7 +75,7 @@ body {
 
 .greeting {
   height: 55px;
-  font-family: Roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -89,7 +88,7 @@ body {
 
 .title {
   height: 87px;
-  font-family: Roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -101,7 +100,7 @@ body {
 }
 
 .title-description {
-  font-family: Roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -126,7 +125,7 @@ hr {
 .tech-list {
   list-style: none;
   color: #fff;
-  font-family: Roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
   padding-left: 40px;
@@ -180,7 +179,7 @@ hr {
 }
 
 .work-header {
-  font-family: Roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -243,7 +242,7 @@ hr {
 .project-title {
   width: 448px;
   height: 105px;
-  font-family: Roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -255,7 +254,7 @@ hr {
 .project-description {
   width: 448px;
   height: 140px;
-  font-family: Roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -275,7 +274,7 @@ hr {
 .langs-used {
   width: 31px;
   height: 20px;
-  font-family: Roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -300,49 +299,59 @@ hr {
   border: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 375px) {
   body {
-    width: 100%;
+    width: 375px;
     margin: 1px 2px;
-    overflow: scroll;
   }
+
   .name {
     margin-left: 2px;
   }
+
   .greeting {
     height: 55px;
   }
+
   .headline {
     margin-top: 10px;
     background-position: -180px -50px;
   }
+
   .title {
     height: 87px;
   }
+
   .title-description {
     height: 170px;
     width: 327px;
   }
+
   hr {
     width: 350px;
   }
+
   .tech {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-left: 0;
   }
+
   .tech-list {
     width: 120px;
   }
+
   .frameworks {
     padding-left: 0;
   }
+
   .social-list {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 25px 25px;
   }
+
   .work-header {
     width: 327px;
     height: 104px;
@@ -356,33 +365,38 @@ hr {
     margin-left: 24px;
     text-transform: uppercase;
   }
+
   .projects {
     display: grid;
     padding-top: 70px;
   }
+
   .project1-image1 {
     width: 327px;
     height: 236px;
     padding: 0 24px;
   }
+
   .project-info1 {
     width: 327px;
     padding: 0;
   }
+
   .project-title {
     margin-bottom: 0;
     padding: 24px 24px 0 24px;
     height: 105px;
-    font-family: Roboto, sans-serif;
+    font-family: 'roboto', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 44px;
     color: #fff;
   }
+
   .project-description {
     width: 327px;
-    font-family: Roboto, sans-serif;
+    font-family: 'roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -392,6 +406,7 @@ hr {
     margin-left: 24px;
     margin-top: 0;
   }
+
   .project-langs {
     padding: 0 24px;
     width: 327px;
@@ -401,6 +416,7 @@ hr {
     align-items: center;
     justify-content: space-around;
   }
+
   .project-button {
     margin-left: 24px;
     margin-top: 24px;
@@ -412,15 +428,19 @@ hr {
     border: none;
     font-size: 12px;
   }
+
   .project-button:enabled {
     background-color: #7d73fc;
   }
+
   .project-button:active {
     background-color: #5e42d7;
   }
+
   .project-button:hover {
     box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
+
   .project-image {
     order: -1;
     width: 327px;
@@ -437,50 +457,66 @@ hr {
     background-repeat: no-repeat;
     background-position: 250px 180px;
   }
+
   .third-project {
     background-image: url(images/mobile/third.svg);
     background-repeat: no-repeat;
     background-position: 0 280px;
   }
+
   .forth-project {
     background-image: url(images/mobile/forth.svg);
     background-repeat: no-repeat;
     background-position: 200px 290px;
   }
+
   .github {
     margin-left: 40px;
   }
+
   .gmail {
     margin-right: 40px;
   }
+
   .first-work,
   .first-arrow {
     display: none;
   }
+
   .second-work {
     position: absolute;
     margin-top: 100px;
   }
+
   .second-arrow {
     position: absolute;
     margin-top: 200px;
   }
+
+  .contact {
+    text-align: center;
+  }
+
   .contact h1 {
     color: #9390ff;
     align-items: center;
     text-align: center;
-    font-family: roboto, sans-serif !important;
+    font-family: 'roboto', sans-serif ;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
+    margin-top: 120px;
+    margin-bottom: 24px;
   }
   .contact p {
-    color: #ffffff;
-    font-family: "Inter";
+    width: 327px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     margin: 0 24px;
+    margin-bottom: 40px;
   }
 
   .form-container {
@@ -505,9 +541,13 @@ hr {
     margin-bottom: 40px;
   }
 
+  footer {
+    text-align: center;
+  }
+
   .form-button {
     padding: 12px;
-    font: roboto, sans-serif;
+    font: 'roboto', sans-serif;
     font-weight: 500;
     font-size: 12px;
     background: #7d73fc;
@@ -515,5 +555,15 @@ hr {
     align-self: center;
     width: 89px;
     height: 48px;
+    border: none;
+    margin-bottom: 71px;
+  }
+
+  .footer-email {
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ebebff;
+    margin-top: 0;
   }
 }

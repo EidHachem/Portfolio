@@ -12,6 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
   </head>
 
   <body>
@@ -235,17 +238,36 @@
         that you need built or a project that needs coding. I’d love to help
         with it
       </p>
-      <form class="form-container" action="">
-        <input type="text" name="user_name" id="name" />
-        <input type="email" name="user_email" id="mail" />
+      <form class="form-container" action="https://formspree.io/f/{form_id}" method="post">
+        <input type="text" name="Name" id="name" maxlength="30" placeholder="Text Input" />
+        <input type="email" name="Email" id="mail" placeholder="Jeremy@gmail.com" />
         <textarea
           name="user_message"
           id="message"
-          cols="30"
-          rows="10"
+          maxlength="500"
+          placeholder="Enter text here"
         ></textarea>
         <button class="form-button" type="submit">See Project</button>
       </form>
     </sectcion>
+    <hr>
+    <footer>
+      <nav class="social-list">
+        <li class="social-item github">
+          <img src="images/social/github.svg" alt="Github" />
+        </li>
+        <li class="social-item">
+          <img src="images/social/linkedin.svg" alt="Linkedin" />
+        </li>
+        <li class="social-item"><img src="images/social/done.svg" alt="" /></li>
+        <li class="social-item">
+          <img src="images/social/twitter.svg" alt="" />
+        </li>
+        <li class="social-item gmail">
+          <img src="images/social/mail.svg" alt="Gmail" />
+        </li>
+      </nav>
+      <p class="footer-email">emailhere@email.com</p>
+    </footer>
   </body>
 </html>
