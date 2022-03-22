@@ -510,7 +510,7 @@ hr {
     margin-top: 120px;
     margin-bottom: 24px;
   }
-  
+
   .contact p {
     width: 327px;
     color: #fff;
@@ -550,7 +550,7 @@ hr {
 
   .form-button {
     padding: 12px;
-    font: roboto, sans-serif;
+    font-family: roboto, sans-serif;
     font-weight: 500;
     font-size: 12px;
     background: #7d73fc;
