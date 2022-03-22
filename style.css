@@ -13,7 +13,7 @@ body {
 }
 
 .name {
-  font-family: 'roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -75,7 +75,7 @@ body {
 
 .greeting {
   height: 55px;
-  font-family: 'roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -88,7 +88,7 @@ body {
 
 .title {
   height: 87px;
-  font-family: 'roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -100,7 +100,7 @@ body {
 }
 
 .title-description {
-  font-family: 'roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -125,7 +125,7 @@ hr {
 .tech-list {
   list-style: none;
   color: #fff;
-  font-family: 'roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
   padding-left: 40px;
@@ -179,7 +179,7 @@ hr {
 }
 
 .work-header {
-  font-family: 'roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -242,7 +242,7 @@ hr {
 .project-title {
   width: 448px;
   height: 105px;
-  font-family: 'roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -254,7 +254,7 @@ hr {
 .project-description {
   width: 448px;
   height: 140px;
-  font-family: 'roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -274,7 +274,7 @@ hr {
 .langs-used {
   width: 31px;
   height: 20px;
-  font-family: 'roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -386,7 +386,7 @@ hr {
     margin-bottom: 0;
     padding: 24px 24px 0 24px;
     height: 105px;
-    font-family: 'roboto', sans-serif;
+    font-family: roboto, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -396,7 +396,7 @@ hr {
 
   .project-description {
     width: 327px;
-    font-family: 'roboto', sans-serif;
+    font-family: roboto, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -503,7 +503,7 @@ hr {
     color: #9390ff;
     align-items: center;
     text-align: center;
-    font-family: 'roboto', sans-serif;
+    font-family: roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -550,7 +550,7 @@ hr {
 
   .form-button {
     padding: 12px;
-    font: 'roboto', sans-serif;
+    font: roboto, sans-serif;
     font-weight: 500;
     font-size: 12px;
     background: #7d73fc;
@@ -563,7 +563,7 @@ hr {
   }
 
   .footer-email {
-    font-family: 'roboto', sans-serif;
+    font-family: roboto, sans-serif;
     font-size: 20px;
     font-weight: 400;
     color: #ebebff;
