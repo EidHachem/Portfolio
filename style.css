@@ -17,6 +17,8 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 0 20px;
+  list-style: none;
+  padding: 0;
 }
 
 .name {
@@ -29,8 +31,7 @@ body {
   text-align: center;
   color: #fff;
   text-decoration: none;
-  padding: 5px 0 0 10px;
-  margin-left: 2px;
+  padding: 5px 0 0 0;
 }
 
 .menu {
@@ -48,25 +49,11 @@ body {
   margin-bottom: 3px;
 }
 
-.icon1 {
-  width: 33.33332824707031px;
-  left: 8.33349609375px;
-  top: 14.583251953125px;
-  border-radius: 0;
-}
-
-.icon2 {
-  width: 33.33332824707035px;
-  left: 8.33349609375px;
-  top: 25px;
-  border-radius: 0;
-}
-
-.icon3 {
-  width: 33.33332824707031px;
-  left: 8.33349609375px;
-  top: 35.41650390625px;
-  border-radius: 0;
+.menu-about,
+.menu-contact,
+.menu-mail-icon,
+.menu-portfolio {
+  display: none;
 }
 
 .headline {
@@ -343,6 +330,15 @@ hr {
   background-position: 200px 290px;
 }
 
+.first-arrow,
+.second-arrow,
+.first-work,
+.second-work {
+  font-family: roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .first-work,
 .first-arrow {
   display: none;
@@ -355,7 +351,8 @@ hr {
 
 .second-arrow {
   position: absolute;
-  margin-top: 200px;
+  margin-top: 100px;
+  margin-right: 70px;
 }
 
 .contact {
@@ -431,4 +428,125 @@ footer {
   font-weight: 400;
   color: #ebebff;
   margin-top: 0;
+}
+
+@media only screen and (min-width: 1200px){
+  html,
+  body {
+    width: auto;
+}
+
+  body {
+    font-family: roboto, sans-serif;
+    background-image: url(images/home/circle\ 2\ header.svg);
+    background-repeat: no-repeat;
+    background-position: 900px 500px;
+  }
+
+  .headline {
+    background-image: url(images/home/circle\ 1\ header.svg);
+    background-position: 69px 130px;
+    background-repeat: no-repeat;
+  }
+
+  .head {
+    justify-content: space-around;
+  }
+
+  .name {
+    margin-right: 700px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .mobile-menu-icon {
+    display: none;
+  }
+
+  .menu-about,
+  .menu-contact,
+  .menu-mail-icon,
+  .menu-portfolio {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .greeting {
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    color: #9391ff;
+    margin-top: 140px;
+    margin-bottom: 24px;
+  }
+
+  .title {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: #dfe1e6;
+    margin-bottom: 88px;
+  }
+
+  .title-description {
+    font-style: normal;
+    text-align: center;
+    color: #b3bac5;
+    margin: 88px 496.5px 33px 496.5px;
+    width: 447px;
+  }
+
+  hr {
+    width: 448px;
+  }
+
+  .technologies {
+    background-image: none;
+  }
+
+  .tech {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+  }
+
+  .tech-list {
+    margin-right: 4px;
+  }
+
+  .languages-list .tech-item {
+    margin-top: 19.11px;
+    margin-bottom: 19.11px;
+  }
+
+  .frameworks .tech-item {
+    margin-top: 20.65px;
+    margin-bottom: 20.65px;
+  }
+
+  .skills .tech-item {
+    margin-top: 21.33px;
+    margin-bottom: 21.33px;
+  }
+
+  .first-work,
+  .first-arrow {
+    display: block;
+    margin-right: 50px;
+  }
+
+  .second-work {
+    position: inherit;
+    margin-top: 0;
+  }
+
+  .second-arrow {
+    position: inherit;
+    margin-top: 0;
+  }
+
+
 }
