@@ -12,7 +12,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
   </head>
+
   <body>
     <header>
       <div class="head">
@@ -24,6 +28,7 @@
         </nav>
       </div>
     </header>
+
     <section class="headline">
       <h1 class="greeting">Eid Hachem</h1>
       <h2 class="title">Software Developer</h2>
@@ -33,7 +38,9 @@
         need coded, don’t hestiate to contact me.
       </p>
     </section>
+
     <hr />
+
     <div class="technologies">
       <div class="tech">
         <ul class="tech-list">
@@ -61,6 +68,7 @@
         </ul>
       </div>
     </div>
+
     <hr class="social-top" />
     <div class="social">
       <ul class="social-list">
@@ -91,6 +99,7 @@
         </li>
       </ul>
     </div>
+
     <section class="work-section">
       <h3 class="work-header">My recent work</h3>
       <img src="images/home/tall-line.svg" alt="line" class="work-line" />
@@ -165,6 +174,7 @@
         </div>
         <img class="project-image" src="images/home/Placeholder.svg" alt="" />
       </div>
+
       <div class="projects third-project">
         <img class="project1-image1" src="images/home/Placeholder.svg" alt="" />
         <div class="project-info">
@@ -192,6 +202,7 @@
           <button type="button" class="project-button">See Project</button>
         </div>
       </div>
+
       <div class="projects mirror forth-project">
         <div class="project-info1">
           <h3 class="project-title">Multi-Post Stories</h3>
@@ -220,5 +231,45 @@
         <img class="project-image" src="images/home/Placeholder.svg" alt="" />
       </div>
     </section>
+    <article class="contact">
+      <h1>CONTACT US</h1>
+      <p>
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <form class="form-container" action="https://formspree.io/f/xyyopqep" method="post">
+        <input type="text" name="Name" id="name" maxlength="30" placeholder="Text Input" />
+        <input type="email" name="Email" id="mail" placeholder="Jeremy@gmail.com" />
+        <textarea
+          name="user_message"
+          id="message"
+          maxlength="500"
+          placeholder="Enter text here"
+        ></textarea>
+        <button class="form-button project-button" type="submit">See Project</button>
+      </form>
+    </article>
+    <hr>
+    <footer>
+      <nav >
+        <ul class="social-list">
+          <li class="social-item github">
+            <img src="images/social/github.svg" alt="Github" />
+          </li>
+          <li class="social-item">
+            <img src="images/social/linkedin.svg" alt="Linkedin" />
+          </li>
+          <li class="social-item"><img src="images/social/done.svg" alt="" /></li>
+          <li class="social-item">
+            <img src="images/social/twitter.svg" alt="" />
+          </li>
+          <li class="social-item gmail">
+            <img src="images/social/mail.svg" alt="Gmail" />
+          </li>
+      </ul>
+      </nav>
+      <p class="footer-email">emailhere@email.com</p>
+    </footer>
   </body>
 </html>

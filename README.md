@@ -42,6 +42,16 @@ Fork and run
 - Twitter: [@eidHachem1](https://twitter.com/eidHachem1)
 - LinkedIn: [eid-hachem](https://linkedin.com/in/eid-hachem)
 
+## Collaborators
+
+👤 David Ger
+
+- GitHub: [@EidHachem](https://github.com/ger619)
+
+👤 ndayishimiyeeric
+
+- GitHub: [@EidHachem](https://github.com/ndayishimiyeeric)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
