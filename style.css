@@ -139,7 +139,7 @@ hr {
 .technologies {
   background-image: url(images/mobile/secondEllipse.svg);
   background-repeat: no-repeat;
-  background-position: 18rem 0;
+  background-position: top right;
 }
 
 .tech {
@@ -395,7 +395,8 @@ hr {
 
 @media (min-width: 768px) {
   .project-image {
-    width: 100%;
+    width: 684px;
+    height: 448px;
   }
 
   .project-2-img,
@@ -413,7 +414,7 @@ hr {
 .second-project {
   background-image: url(images/mobile/second.svg);
   background-repeat: no-repeat;
-  background-position: 14rem 6rem;
+  background-position: center right;
 }
 
 .third-project {
@@ -425,7 +426,7 @@ hr {
 .forth-project {
   background-image: url(images/mobile/forth.svg);
   background-repeat: no-repeat;
-  background-position: 12rem 12rem;
+  background-position: center right;
 }
 
 @media (min-width: 768px) {
