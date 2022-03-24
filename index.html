@@ -12,20 +12,35 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
       <ul class="head">
-        <li><a href="#" class="name">Eid Hachem</a></li>
+        <li class="name"><a href="#" class="name">Eid Hachem</a></li>
         <li><a class="menu-portfolio" href="#">Protfolio</a></li>
         <li><a class="menu-about" href="#">About</a></li>
         <li><a class="menu-contact" href="#">Contact</a></li>
-        <li><img class="menu-mail-icon" src="images/home/Mail.svg" alt="mail-icon"></li>
-        <li><img class="mobile-menu-icon" src="images/mobile/Menu.svg" alt="menu"></li>
+        <li>
+          <img
+            class="menu-mail-icon"
+            src="images/home/Mail.svg"
+            alt="mail-icon"
+          />
+        </li>
+        <li>
+          <img
+            class="mobile-menu-icon"
+            src="images/mobile/Menu.svg"
+            alt="menu"
+          />
+        </li>
       </ul>
     </header>
 
@@ -102,10 +117,10 @@
 
     <section class="work-section">
       <h3 class="work-header">My recent work</h3>
-      <img src="images/home/tall-line.svg" alt="line" class="work-line" />
+      <hr class="work-line" />
       <div class="projects first-project">
         <img
-          class="project1-image1"
+          class="project-image"
           src="images/home/Placeholder.svg"
           alt="vector"
         />
@@ -148,7 +163,7 @@
       </div>
 
       <div class="projects mirror second-project">
-        <div class="project-info1">
+        <div class="project-info">
           <h3 class="project-title">Multi-Post Stories</h3>
           <p class="project-description">
             A daily selection of privately personalized reads; no accounts or
@@ -172,11 +187,15 @@
           </ul>
           <button type="button" class="project-button">See Project</button>
         </div>
-        <img class="project-image" src="images/home/Placeholder.svg" alt="" />
+        <img
+          class="project-image project-2-img"
+          src="images/home/Placeholder.svg"
+          alt=""
+        />
       </div>
 
       <div class="projects third-project">
-        <img class="project1-image1" src="images/home/Placeholder.svg" alt="" />
+        <img class="project-image" src="images/home/Placeholder.svg" alt="" />
         <div class="project-info">
           <h3 class="project-title">Multi-Post Stories</h3>
           <p class="project-description">
@@ -204,7 +223,7 @@
       </div>
 
       <div class="projects mirror forth-project">
-        <div class="project-info1">
+        <div class="project-info">
           <h3 class="project-title">Multi-Post Stories</h3>
           <p class="project-description">
             A daily selection of privately personalized reads; no accounts or
@@ -228,7 +247,11 @@
           </ul>
           <button type="button" class="project-button">See Project</button>
         </div>
-        <img class="project-image" src="images/home/Placeholder.svg" alt="" />
+        <img
+          class="project-image project-4-img"
+          src="images/home/Placeholder.svg"
+          alt=""
+        />
       </div>
     </section>
     <article class="contact">
@@ -238,21 +261,38 @@
         that you need built or a project that needs coding. I’d love to help
         with it
       </p>
-      <form class="form-container" action="https://formspree.io/f/xyyopqep" method="post">
-        <input type="text" name="Name" id="name" maxlength="30" placeholder="Text Input" />
-        <input type="email" name="Email" id="mail" placeholder="Jeremy@gmail.com" />
+      <form
+        class="form-container"
+        action="https://formspree.io/f/xyyopqep"
+        method="post"
+      >
+        <input
+          type="text"
+          name="Name"
+          id="name"
+          maxlength="30"
+          placeholder="Text Input"
+        />
+        <input
+          type="email"
+          name="Email"
+          id="mail"
+          placeholder="Jeremy@gmail.com"
+        />
         <textarea
           name="user_message"
           id="message"
           maxlength="500"
           placeholder="Enter text here"
         ></textarea>
-        <button class="form-button project-button" type="submit">See Project</button>
+        <button class="form-button project-button" type="submit">
+          See Project
+        </button>
       </form>
     </article>
-    <hr>
+    <hr />
     <footer>
-      <nav >
+      <nav>
         <ul class="social-list">
           <li class="social-item github">
             <img src="images/social/github.svg" alt="Github" />
@@ -260,14 +300,16 @@
           <li class="social-item">
             <img src="images/social/linkedin.svg" alt="Linkedin" />
           </li>
-          <li class="social-item"><img src="images/social/done.svg" alt="" /></li>
+          <li class="social-item">
+            <img src="images/social/done.svg" alt="" />
+          </li>
           <li class="social-item">
             <img src="images/social/twitter.svg" alt="" />
           </li>
           <li class="social-item gmail">
             <img src="images/social/mail.svg" alt="Gmail" />
           </li>
-      </ul>
+        </ul>
       </nav>
       <p class="footer-email">emailhere@email.com</p>
     </footer>
