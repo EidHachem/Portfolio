@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   width: 100%;
@@ -11,21 +15,6 @@ body {
   margin: 0;
 }
 
-@media only screen and (min-width: 768px) {
-  body {
-    background-image: url(images/home/circle\ 2\ header.svg);
-    background-repeat: no-repeat;
-    background-position: 100% 5%;
-    background-size: 20%;
-  }
-
-  .headline {
-    background-image: url(images/home/circle\ 1\ header.svg);
-    background-repeat: no-repeat;
-    background-size: 20%;
-  }
-}
-
 .head {
   display: flex;
   align-items: center;
@@ -33,12 +22,6 @@ body {
   margin: 0 3%;
   list-style: none;
   padding: 0;
-}
-
-@media only screen and (min-width: 768px) {
-  .head {
-    justify-content: space-around;
-  }
 }
 
 .name {
@@ -51,38 +34,11 @@ body {
   text-decoration: none;
 }
 
-@media (min-width: 768px) {
-  .name {
-    margin-right: 50%;
-  }
-}
-
 .menu-about,
 .menu-contact,
 .menu-mail-icon,
 .menu-portfolio {
   display: none;
-}
-
-@media (min-width: 768px) {
-  .menu-about,
-  .menu-contact,
-  .menu-mail-icon,
-  .menu-portfolio {
-    display: inherit;
-    font-family: roboto, sans-serif;
-    font-size: 1.1em;
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .mobile-menu-icon {
-    display: none;
-  }
 }
 
 .headline {
@@ -123,13 +79,6 @@ body {
   max-width: 90%;
 }
 
-@media (min-width: 768px) {
-  .title-description {
-    padding-left: 25%;
-    padding-right: 25%;
-  }
-}
-
 hr {
   background-image: url(images/home/Vector\ 4.svg);
   width: 70%;
@@ -148,17 +97,6 @@ hr {
   margin-left: 0;
 }
 
-@media (min-width: 768px) {
-  .technologies {
-    background-image: none;
-  }
-
-  .tech {
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    padding: 0 25%;
-  }
-}
-
 .tech-list {
   list-style: none;
   color: #fff;
@@ -169,12 +107,6 @@ hr {
 
 .frameworks {
   padding-left: 0;
-}
-
-@media (min-width: 768px) {
-  .frameworks {
-    padding-left: 2rem;
-  }
 }
 
 .tech-title {
@@ -198,13 +130,6 @@ hr {
   justify-content: center;
   padding: 5%;
   color: #babac5;
-}
-
-@media (min-width: 768px) {
-  .social-list {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
 }
 
 .social-item {
@@ -243,7 +168,250 @@ hr {
   margin-right: 5em;
 }
 
+.work-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-header {
+  width: 70%;
+  font-family: roboto, sans-serif;
+  font-size: 3em;
+  font-style: normal;
+  font-weight: 500;
+  color: #9390ff;
+  margin-top: 8rem;
+  padding-left: 10%;
+  text-transform: uppercase;
+}
+
+.work-line {
+  width: 80%;
+  align-self: center;
+  margin-bottom: 2rem;
+  color: #646369;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+  margin-bottom: 52px;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-title {
+  font-family: roboto, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+  width: 100%;
+}
+
+.project-description {
+  font-family: roboto, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #dcdce8;
+}
+
+.project-langs {
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+.langs-used {
+  font-family: roboto, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+}
+
+.project-button {
+  color: #fff;
+  background-color: #7d73fc;
+  border: none;
+  font-size: 12px;
+  padding: 12px;
+}
+
+.first-project {
+  background-image: url(images/mobile/first.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.second-project {
+  background-image: url(images/mobile/second.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.third-project {
+  background-image: url(images/mobile/third.svg);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.forth-project {
+  background-image: url(images/mobile/forth.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.project-button:enabled {
+  background-color: #7d73fc;
+}
+
+.project-button:active {
+  background-color: #5e42d7;
+}
+
+.project-button:hover {
+  box-shadow: 0 1rem 2rem #7d73fc7a;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h1 {
+  color: #9390ff;
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.2em;
+  margin-top: 6rem;
+}
+
+.contact p {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#name,
+#mail {
+  margin: 0 1.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#message {
+  padding: 1rem;
+  padding-bottom: 7rem;
+  margin: 0 1.5rem;
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+.form-button {
+  padding: 1rem;
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  background: #7d73fc;
+  color: #edecff;
+  align-self: center;
+  border: none;
+  margin-bottom: 4em;
+}
+
+.footer-email {
+  font-family: roboto, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #ebebff;
+}
+
 @media (min-width: 768px) {
+  body {
+    background-image: url(images/home/circle\ 2\ header.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 5%;
+    background-size: 20%;
+  }
+
+  .headline {
+    background-image: url(images/home/circle\ 1\ header.svg);
+    background-repeat: no-repeat;
+    background-size: 20%;
+  }
+
+  .head {
+    justify-content: space-around;
+  }
+
+  .name {
+    margin-right: 50%;
+  }
+
+  .menu-about,
+  .menu-contact,
+  .menu-mail-icon,
+  .menu-portfolio {
+    display: inherit;
+    font-family: roboto, sans-serif;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .mobile-menu-icon {
+    display: none;
+  }
+
+  .title-description {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .technologies {
+    background-image: none;
+  }
+
+  .tech {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding: 0 25%;
+  }
+
+  .frameworks {
+    padding-left: 2rem;
+  }
+
+  .social-list {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
   .first-work,
   .first-arrow {
     display: inherit;
@@ -273,232 +441,35 @@ hr {
   .second-arrow {
     margin-left: 25%;
   }
-}
 
-.work-section {
-  display: flex;
-  flex-direction: column;
-}
-
-.work-header {
-  width: 70%;
-  font-family: roboto, sans-serif;
-  font-size: 3em;
-  font-style: normal;
-  font-weight: 500;
-  color: #9390ff;
-  margin-top: 8rem;
-  padding-left: 10%;
-  text-transform: uppercase;
-}
-
-.work-line {
-  width: 80%;
-  align-self: center;
-  margin-bottom: 2rem;
-  color: #646369;
-}
-
-.projects {
-  display: grid;
-}
-
-.project-image {
-  order: -1;
-  width: 20rem;
-  padding: 0 1.5rem;
-  margin-bottom: 2rem;
-}
-
-.project-info {
-  width: 85%;
-}
-
-.project-title {
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  font-family: roboto, sans-serif;
-  font-size: 2em;
-  font-style: normal;
-  font-weight: 500;
-  color: #fff;
-}
-
-.project-description {
-  font-family: roboto, sans-serif;
-  font-size: 1.2em;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.4em;
-  text-align: left;
-  color: #dcdce8;
-  padding-left: 1.5rem;
-}
-
-.project-langs {
-  padding: 0 1.5rem;
-  display: grid;
-  grid-auto-flow: column;
-  list-style: none;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.langs-used {
-  font-family: roboto, sans-serif;
-  font-size: 1em;
-  font-style: normal;
-  font-weight: 500;
-  text-align: left;
-  color: #fff;
-}
-
-.project-button {
-  margin-left: 1.5rem;
-  margin-bottom: 1.5rem;
-  padding: 1.5em;
-  color: #fff;
-  background-color: #7d73fc;
-  border: none;
-  font-size: 0.8em;
-}
-
-@media (min-width: 768px) {
-  .projects {
-    padding-right: 8rem;
+  .project-image {
+    align-self: center;
   }
 
-  .first-project,
-  .third-project {
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 5em;
-  }
-
-  .second-project,
-  .forth-project {
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 1em;
-  }
-
-  .project-info {
-    border: 2px solid green;
-    width: 100%;
-    /* height: 100%; */
-    padding-top: 0;
-    padding-bottom: 1em;
-  }
-
-  .project-info2 {
-    border: 2px solid red;
-    width: 100%;
-    /* height: 100%; */
-    padding-left: 1em;
-    /* padding-right: 1em; */
+  .project-2-image {
+    order: 1;
   }
 
   .projects {
     display: grid;
-  }
-  
-  .project-image {
-    order: -1;
-    width: 100%;
-    padding: 0 1.5rem;
-    margin-bottom: 2rem;
-  }
-  
-  .project-title {
-    /* padding-left: 1rem; */
-    font-size: 32px;
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-  
-  .project-description {
-    margin-top: 0;
-    font-size: 16px;
-    /* padding-left: 1rem; */
-  }
-  
-  /* .project-langs {
-    padding: 0 1rem;
-  } */
-  
-  .langs-used {
-    font-size: 16px;
-  }
-  
-  .project-button {
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    padding: 1em;
-    font-size: 16px;
-  }
-}
-
-.project-button:enabled {
-  background-color: #7d73fc;
-}
-
-.project-button:active {
-  background-color: #5e42d7;
-}
-
-.project-button:hover {
-  box-shadow: 0 1rem 2rem #7d73fc7a;
-}
-
-@media (min-width: 768px) {
-  .project-2-img,
-  .project-4-img {
-    order: 0;
+    gap: 15px;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    padding: 0 10%;
   }
 
-  .project-image {
-    width: 100%;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-bottom: 2rem;
-  }
-}
-
-.first-project {
-  background-image: url(images/mobile/first.svg);
-  background-repeat: no-repeat;
-  background-position: 0 3rem;
-}
-
-.second-project {
-  background-image: url(images/mobile/second.svg);
-  background-repeat: no-repeat;
-  background-position: center right;
-}
-
-.third-project {
-  background-image: url(images/mobile/third.svg);
-  background-repeat: no-repeat;
-  background-position: 0 11rem;
-}
-
-.forth-project {
-  background-image: url(images/mobile/forth.svg);
-  background-repeat: no-repeat;
-  background-position: center right;
-}
-
-@media (min-width: 768px) {
   .first-project {
     background-image: url(images/home/Ellipse-myRecentWork.svg);
     background-repeat: no-repeat;
-    background-position: 0 100%;
-    background-size: 20%;
+    background-position: left center;
+    background-size: 15%;
   }
 
   .second-project {
     background-image: url(images/home/EllipseSecondProject.svg);
     background-repeat: no-repeat;
-    background-position: 110% 100%;
-    background-size: 20%;
+    background-position: 100% 85%;
+    background-size: 15%;
   }
 
   .third-project {
@@ -514,87 +485,18 @@ hr {
     background-position: 100% 0%;
     background-size: 20%;
   }
-}
 
-.contact {
-  text-align: center;
-}
-
-.contact h1 {
-  color: #9390ff;
-  font-family: roboto, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2.2em;
-  margin-top: 6rem;
-}
-
-.contact p {
-  color: #fff;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1em;
-  margin: 0 1.5rem;
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 768px) {
   .contact {
-    padding-top: 20%;
+    padding-top: 50px;
   }
   .contact p {
     padding: 0 20%;
   }
-}
 
-.form-container {
-  display: flex;
-  flex-direction: column;
-}
-
-#name,
-#mail {
-  margin: 0 1.5rem;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-#message {
-  padding: 1rem;
-  padding-bottom: 7rem;
-  margin: 0 1.5rem;
-  margin-bottom: 40px;
-}
-
-@media (min-width: 768px) {
   #name,
   #mail,
   #message {
     margin-left: 25%;
     margin-right: 25%;
   }
-}
-
-footer {
-  text-align: center;
-}
-
-.form-button {
-  padding: 1rem;
-  font-family: roboto, sans-serif;
-  font-weight: 500;
-  font-size: 1em;
-  background: #7d73fc;
-  color: #edecff;
-  align-self: center;
-  border: none;
-  margin-bottom: 4em;
-}
-
-.footer-email {
-  font-family: roboto, sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  color: #ebebff;
 }
