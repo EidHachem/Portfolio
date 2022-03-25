@@ -203,6 +203,11 @@ hr {
   width: 100%;
 }
 
+.project-img:hover {
+  border: 2px solid #9c23a7;
+  box-shadow: 2px 2px 2px 2px #9f99f3;
+}
+
 .project-title {
   font-family: roboto, sans-serif;
   font-size: 32px;
@@ -420,6 +425,8 @@ footer {
   .first-arrow {
     display: inherit;
     margin: 0;
+    animation: animateName 1.5s linear infinite;
+    animation-direction: reverse;
   }
 
   .first-work {
@@ -436,6 +443,7 @@ footer {
     position: relative;
     margin-top: 0%;
     margin-right: 0%;
+    animation: animateName 1.5s linear infinite;
   }
 
   .second-work {
@@ -503,5 +511,17 @@ footer {
   #message {
     margin-left: 25%;
     margin-right: 25%;
+  }
+
+  @keyframes animateName {
+    0%{
+      transform: translateY(30px);
+    }
+    50%{
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(30px);
+    }
   }
 }
