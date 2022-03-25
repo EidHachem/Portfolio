@@ -233,10 +233,14 @@ hr {
 
 .langs-used {
   font-family: roboto, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   color: #fff;
+}
+
+.lang-split {
+  color:#555555;
 }
 
 .project-button {
@@ -489,6 +493,7 @@ footer {
   .contact {
     padding-top: 50px;
   }
+
   .contact p {
     padding: 0 20%;
   }
