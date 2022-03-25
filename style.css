@@ -41,6 +41,26 @@ body {
   display: none;
 }
 
+.menu-link {
+  position: relative;
+}
+
+.menu-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #fff;
+  transform: scale(0);
+  transition: transform 0.3s ease-in;
+}
+
+.menu-link:hover::before {
+  transform: scale(1);
+}
+
 .headline {
   display: flex;
   flex-direction: column;
@@ -307,7 +327,7 @@ hr {
 
 .contact p {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -514,10 +534,10 @@ footer {
   }
 
   @keyframes animateName {
-    0%{
+    0% {
       transform: translateY(30px);
     }
-    50%{
+    50% {
       transform: translateY(-30px);
     }
     100% {
