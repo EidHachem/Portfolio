@@ -370,28 +370,30 @@ hr {
 
   .first-project,
   .third-project {
-    grid-template-columns: 60% 40%;
-    grid-column-gap: 2em;
-    font-size: 10px;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5em;
   }
 
   .second-project,
   .forth-project {
-    grid-template-columns: 40% 60%;
-    grid-column-gap: 0;
-    font-size: 10px;
-    grid-gap: 2%;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1em;
   }
 
   .project-info {
+    border: 2px solid green;
     width: 100%;
-    padding-top: 0%;
-    padding-bottom: 10%;
+    /* height: 100%; */
+    padding-top: 0;
+    padding-bottom: 1em;
   }
 
   .project-info2 {
-    padding-left: 10%;
-    padding-right: 10%;
+    border: 2px solid red;
+    width: 100%;
+    /* height: 100%; */
+    padding-left: 1em;
+    /* padding-right: 1em; */
   }
 
   .projects {
@@ -400,36 +402,37 @@ hr {
   
   .project-image {
     order: -1;
-    width: 20rem;
+    width: 100%;
     padding: 0 1.5rem;
     margin-bottom: 2rem;
   }
   
   .project-title {
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    font-size: 1.5rem;
+    /* padding-left: 1rem; */
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-top: 0;
   }
   
   .project-description {
-    font-size: 0.8rem;
-    line-height: 1rem;
-    padding-left: 1rem;
+    margin-top: 0;
+    font-size: 16px;
+    /* padding-left: 1rem; */
   }
   
-  .project-langs {
+  /* .project-langs {
     padding: 0 1rem;
-  }
+  } */
   
   .langs-used {
-    font-size: 1em;
+    font-size: 16px;
   }
   
   .project-button {
     margin-left: 1rem;
     margin-bottom: 1rem;
     padding: 1em;
-    font-size: 0.7rem;
+    font-size: 16px;
   }
 }
 
