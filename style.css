@@ -200,6 +200,13 @@ hr {
   color: #babac5;
 }
 
+@media (min-width: 768px) {
+  .social-list {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
 .social-item {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -358,26 +365,71 @@ hr {
 
 @media (min-width: 768px) {
   .projects {
-    padding: 0 5%;
+    padding-right: 8rem;
   }
 
   .first-project,
   .third-project {
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 60% 40%;
     grid-column-gap: 2em;
     font-size: 10px;
   }
 
   .second-project,
   .forth-project {
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 40% 60%;
     grid-column-gap: 0;
     font-size: 10px;
+    grid-gap: 2%;
   }
 
   .project-info {
+    width: 100%;
     padding-top: 0%;
     padding-bottom: 10%;
+  }
+
+  .project-info2 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .projects {
+    display: grid;
+  }
+  
+  .project-image {
+    order: -1;
+    width: 20rem;
+    padding: 0 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project-title {
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .project-description {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding-left: 1rem;
+  }
+  
+  .project-langs {
+    padding: 0 1rem;
+  }
+  
+  .langs-used {
+    font-size: 1em;
+  }
+  
+  .project-button {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1em;
+    font-size: 0.7rem;
   }
 }
 
@@ -394,14 +446,16 @@ hr {
 }
 
 @media (min-width: 768px) {
-  .project-image {
-    width: 684px;
-    height: 448px;
-  }
-
   .project-2-img,
   .project-4-img {
     order: 0;
+  }
+
+  .project-image {
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -454,8 +508,8 @@ hr {
   .forth-project {
     background-image: url(images/home/EllipseForthRight.svg);
     background-repeat: no-repeat;
-    background-position: 100% -20%;
-    background-size: 30%;
+    background-position: 100% 0%;
+    background-size: 20%;
   }
 }
 
@@ -483,6 +537,9 @@ hr {
 }
 
 @media (min-width: 768px) {
+  .contact {
+    padding-top: 20%;
+  }
   .contact p {
     padding: 0 20%;
   }
