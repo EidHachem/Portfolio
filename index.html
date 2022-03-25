@@ -12,21 +12,36 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
-      <div class="head">
-        <a href="#" class="name">Eid Hachem</a>
-        <nav class="menu">
-          <div class="menu-icon icon1"></div>
-          <div class="menu-icon icon2"></div>
-          <div class="menu-icon icon3"></div>
-        </nav>
-      </div>
+      <ul class="head">
+        <li class="name"><a href="#" class="name">Eid Hachem</a></li>
+        <li><a class="menu-portfolio" href="#">Protfolio</a></li>
+        <li><a class="menu-about" href="#">About</a></li>
+        <li><a class="menu-contact" href="#">Contact</a></li>
+        <li>
+          <img
+            class="menu-mail-icon"
+            src="images/home/Mail.svg"
+            alt="mail-icon"
+          />
+        </li>
+        <li>
+          <img
+            class="mobile-menu-icon"
+            src="images/mobile/Menu.svg"
+            alt="menu"
+          />
+        </li>
+      </ul>
     </header>
 
     <section class="headline">
@@ -43,7 +58,7 @@
 
     <div class="technologies">
       <div class="tech">
-        <ul class="tech-list">
+        <ul class="tech-list languages-list">
           <li class="tech-title">Languages</li>
           <li class="tech-item">Javascript</li>
           <li class="tech-item">Ruby</li>
@@ -70,6 +85,7 @@
     </div>
 
     <hr class="social-top" />
+
     <div class="social">
       <ul class="social-list">
         <li class="social-item first-work">
@@ -100,137 +116,143 @@
       </ul>
     </div>
 
-    <section class="work-section">
+    <section>
       <h3 class="work-header">My recent work</h3>
-      <img src="images/home/tall-line.svg" alt="line" class="work-line" />
-      <div class="projects first-project">
-        <img
-          class="project1-image1"
+      <hr class="work-line" />
+    </section>
+
+    <article class="projects first-project">
+      <div class="project-image">
+        <img class="project-img"
           src="images/home/Placeholder.svg"
           alt="vector"
         />
-        <div class="project-info">
-          <h3 class="project-title">Multi-Post Stories</h3>
-          <p class="project-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <ul class="project-langs">
-            <li class="langs-used css">css</li>
-            <li>
-              <img
-                src="images/home/split.svg"
-                alt="vector"
-                class="lang-split"
-              />
-            </li>
-            <li class="langs-used html">html</li>
-            <li>
-              <img
-                src="images/home/split.svg"
-                alt="vector"
-                class="lang-split"
-              />
-            </li>
-            <li class="langs-used bootstrap">bootstrap</li>
-            <li>
-              <img
-                src="images/home/split.svg"
-                alt="vector"
-                class="lang-split"
-              />
-            </li>
-            <li class="langs-used rubu">Ruby</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
-        </div>
       </div>
+      <div class="project-info">
+        <h3 class="project-title">Multi-Post Stories</h3>
+        <p class="project-description">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a standard dummy text.
+        </p>
+        <ul class="project-langs">
+          <li class="langs-used">css</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">html</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">bootstrap</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">Ruby</li>
+        </ul>
+        <button type="button" class="project-button">See Project</button>
+      </div>
+    </article>
 
-      <div class="projects mirror second-project">
-        <div class="project-info1">
-          <h3 class="project-title">Multi-Post Stories</h3>
-          <p class="project-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <ul class="project-langs">
-            <li class="langs-used css">css</li>
-            <li>
-              <img src="images/home/split.svg" alt="" class="lang-split" />
-            </li>
-            <li class="langs-used html">html</li>
-            <li>
-              <img src="images/home/split.svg" alt="" class="lang-split" />
-            </li>
-            <li class="langs-used bootstrap">bootstrap</li>
-            <li>
-              <img src="images/home/split.svg" alt="" class="lang-split" />
-            </li>
-            <li class="langs-used rubu">Ruby</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
-        </div>
-        <img class="project-image" src="images/home/Placeholder.svg" alt="" />
+    <article class="projects second-project">
+      <div class ="project-image project-2-image">
+        <img class="project-img"
+          src="images/home/Placeholder.svg"
+          alt="vector"
+        />
       </div>
+      <div class="project-info">
+        <h3 class="project-title">Multi-Post Stories</h3>
+        <p class="project-description">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a standard dummy text.
+        </p>
+        <ul class="project-langs">
+          <li class="langs-used">css</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">html</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">bootstrap</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">Ruby</li>
+        </ul>
+        <button type="button" class="project-button">See Project</button>
+      </div>
+    </article>
 
-      <div class="projects third-project">
-        <img class="project1-image1" src="images/home/Placeholder.svg" alt="" />
-        <div class="project-info">
-          <h3 class="project-title">Multi-Post Stories</h3>
-          <p class="project-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <ul class="project-langs">
-            <li class="langs-used css">css</li>
-            <li>
-              <img src="images/home/split.svg" alt="" class="lang-split" />
-            </li>
-            <li class="langs-used html">html</li>
-            <li>
-              <img src="images/home/split.svg" alt="" class="lang-split" />
-            </li>
-            <li class="langs-used bootstrap">bootstrap</li>
-            <li>
-              <img src="images/home/split.svg" alt="" class="lang-split" />
-            </li>
-            <li class="langs-used rubu">Ruby</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
-        </div>
+    <article class="projects third-project">
+      <div class="project-image">
+        <img class="project-img"
+          src="images/home/Placeholder.svg"
+          alt="vector"
+        />
       </div>
+      <div class="project-info">
+        <h3 class="project-title">Multi-Post Stories</h3>
+        <p class="project-description">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a standard dummy text.
+        </p>
+        <ul class="project-langs">
+          <li class="langs-used">css</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">html</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">bootstrap</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">Ruby</li>
+        </ul>
+        <button type="button" class="project-button">See Project</button>
+      </div>
+    </article>
 
-      <div class="projects mirror forth-project">
-        <div class="project-info1">
-          <h3 class="project-title">Multi-Post Stories</h3>
-          <p class="project-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <ul class="project-langs">
-            <li class="langs-used css">css</li>
-            <li>
-              <img src="images/home/split.svg" alt="" class="lang-split" />
-            </li>
-            <li class="langs-used html">html</li>
-            <li>
-              <img src="images/home/split.svg" alt="" class="lang-split" />
-            </li>
-            <li class="langs-used bootstrap">bootstrap</li>
-            <li>
-              <img src="images/home/split.svg" alt="" class="lang-split" />
-            </li>
-            <li class="langs-used rubu">Ruby</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
-        </div>
-        <img class="project-image" src="images/home/Placeholder.svg" alt="" />
+    <article class="projects forth-project">
+      <div class="project-image project-2-image">
+        <img class="project-img"
+          src="images/home/Placeholder.svg"
+          alt="vector"
+        />
       </div>
-    </section>
+      <div class="project-info">
+        <h3 class="project-title">Multi-Post Stories</h3>
+        <p class="project-description">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a standard dummy text.
+        </p>
+        <ul class="project-langs">
+          <li class="langs-used">css</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">html</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">bootstrap</li>
+          <li>
+            <img src="images/home/split.svg" alt="vector" class="lang-split" />
+          </li>
+          <li class="langs-used">Ruby</li>
+        </ul>
+        <button type="button" class="project-button">See Project</button>
+      </div>
+    </article>
+
     <article class="contact">
       <h1>CONTACT US</h1>
       <p>
@@ -238,21 +260,38 @@
         that you need built or a project that needs coding. I’d love to help
         with it
       </p>
-      <form class="form-container" action="https://formspree.io/f/xyyopqep" method="post">
-        <input type="text" name="Name" id="name" maxlength="30" placeholder="Text Input" />
-        <input type="email" name="Email" id="mail" placeholder="Jeremy@gmail.com" />
+      <form
+        class="form-container"
+        action="https://formspree.io/f/xyyopqep"
+        method="post"
+      >
+        <input
+          type="text"
+          name="Name"
+          id="name"
+          maxlength="30"
+          placeholder="Text Input"
+        />
+        <input
+          type="email"
+          name="Email"
+          id="mail"
+          placeholder="Jeremy@gmail.com"
+        />
         <textarea
           name="user_message"
           id="message"
           maxlength="500"
           placeholder="Enter text here"
         ></textarea>
-        <button class="form-button project-button" type="submit">See Project</button>
+        <button class="form-button project-button" type="submit">
+          See Project
+        </button>
       </form>
     </article>
-    <hr>
+    <hr />
     <footer>
-      <nav >
+      <nav>
         <ul class="social-list">
           <li class="social-item github">
             <img src="images/social/github.svg" alt="Github" />
@@ -260,14 +299,16 @@
           <li class="social-item">
             <img src="images/social/linkedin.svg" alt="Linkedin" />
           </li>
-          <li class="social-item"><img src="images/social/done.svg" alt="" /></li>
+          <li class="social-item">
+            <img src="images/social/done.svg" alt="" />
+          </li>
           <li class="social-item">
             <img src="images/social/twitter.svg" alt="" />
           </li>
           <li class="social-item gmail">
             <img src="images/social/mail.svg" alt="Gmail" />
           </li>
-      </ul>
+        </ul>
       </nav>
       <p class="footer-email">emailhere@email.com</p>
     </footer>
