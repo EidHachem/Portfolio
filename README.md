@@ -11,9 +11,9 @@
 - Frameworks
 - Technologies used
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link]("Not available yet")
+[https://eidhachem.github.io/Portfolio/]
 
 
 ## Getting Started
