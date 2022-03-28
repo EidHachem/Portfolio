@@ -388,17 +388,21 @@ footer {
     background-position: 100% 5%;
     background-size: 20%;
   }
+
   .headline {
     background-image: url(images/home/circle\ 1\ header.svg);
     background-repeat: no-repeat;
     background-size: 20%;
   }
+
   .head {
     justify-content: space-around;
   }
+
   .name {
     margin-right: 50%;
   }
+
   .menu-about,
   .menu-contact,
   .menu-mail-icon,
@@ -413,27 +417,34 @@ footer {
     color: #fff;
     text-decoration: none;
   }
+
   .mobile-menu-icon {
     display: none;
   }
+
   .title-description {
     padding-left: 25%;
     padding-right: 25%;
   }
+
   .technologies {
     background-image: none;
   }
+
   .tech {
     grid-template-columns: 33.33% 33.33% 33.33%;
     padding: 0 25%;
   }
+
   .frameworks {
     padding-left: 2rem;
   }
+
   .social-list {
     padding-left: 10%;
     padding-right: 10%;
   }
+
   .first-work,
   .first-arrow {
     display: inherit;
@@ -441,13 +452,16 @@ footer {
     animation: animateName 1.5s linear infinite;
     animation-direction: reverse;
   }
+
   .first-work {
     margin-left: 10%;
   }
+
   .first-arrow {
     margin-left: 1em;
     margin-right: 25%;
   }
+
   .second-work,
   .second-arrow {
     position: relative;
@@ -455,18 +469,23 @@ footer {
     margin-right: 0%;
     animation: animateName 1.5s linear infinite;
   }
+
   .second-work {
     margin-right: 10%;
   }
+
   .second-arrow {
     margin-left: 25%;
   }
+
   .project-image {
     align-self: center;
   }
+
   .project-2-image {
     order: 1;
   }
+
   .projects {
     display: grid;
     gap: 15px;
@@ -474,42 +493,50 @@ footer {
     grid-auto-columns: 1fr;
     padding: 0 10%;
   }
+
   .first-project {
     background-image: url(images/home/Ellipse-myRecentWork.svg);
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 15%;
   }
+
   .second-project {
     background-image: url(images/home/EllipseSecondProject.svg);
     background-repeat: no-repeat;
     background-position: 100% 85%;
     background-size: 15%;
   }
+
   .third-project {
     background-image: url(images/home/EllipseThirdLeft.svg);
     background-repeat: no-repeat;
     background-position: 0 80%;
     background-size: 30%;
   }
+
   .forth-project {
     background-image: url(images/home/EllipseForthRight.svg);
     background-repeat: no-repeat;
     background-position: 100% 0%;
     background-size: 20%;
   }
+
   .contact {
     padding-top: 50px;
   }
+
   .contact p {
     padding: 0 20%;
   }
+
   #name,
   #mail,
   #message {
     margin-left: 25%;
     margin-right: 25%;
   }
+
   @keyframes animateName {
     0% {
       transform: translateY(30px);
