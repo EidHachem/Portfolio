@@ -102,6 +102,7 @@ body {
 hr {
   background-image: url(images/home/Vector\ 4.svg);
   width: 70%;
+  max-width: 700px;
   color: #646369;
 }
 
@@ -207,6 +208,7 @@ hr {
 
 .work-line {
   width: 80%;
+  max-width: 100%;
   align-self: center;
   margin-bottom: 2rem;
   color: #646369;
