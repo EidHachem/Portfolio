@@ -455,7 +455,7 @@ footer {
   .first-arrow {
     display: inherit;
     margin: 0;
-    animation: animateName 1.5s linear ;
+    animation: animateName 1.5s linear;
     animation-direction: reverse;
   }
 
