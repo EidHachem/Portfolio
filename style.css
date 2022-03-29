@@ -315,14 +315,18 @@ hr {
 }
 
 .project-button:hover {
-  box-shadow: 0 1rem 2rem #7d73fc7a;
+  box-shadow: 0 0.25rem 3rem #6ad1d87a;
+}
+
+.project-button:focus {
+  background-color: #488edf;
 }
 
 .contact {
   text-align: center;
 }
 
-.contact h1 {
+.contact h2 {
   color: #9390ff;
   font-family: roboto, sans-serif;
   font-style: normal;
@@ -451,7 +455,7 @@ footer {
   .first-arrow {
     display: inherit;
     margin: 0;
-    animation: animateName 1.5s linear infinite;
+    animation: animateName 1.5s linear ;
     animation-direction: reverse;
   }
 
@@ -469,7 +473,7 @@ footer {
     position: relative;
     margin-top: 0%;
     margin-right: 0%;
-    animation: animateName 1.5s linear infinite;
+    animation: animateName 1.5s linear;
   }
 
   .second-work {
