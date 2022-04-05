@@ -21,6 +21,10 @@ body {
   visibility: hidden;
 }
 
+.fixed-position {
+  position: fixed;
+}
+
 .navbar {
   display: flex;
   top: 0;

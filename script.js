@@ -1,11 +1,13 @@
 const hamburger = document.querySelector('.ham');
 const navSub = document.querySelector('.nav-sub');
 const title = document.querySelector('.title');
+const body = document.querySelector('body');
 
 function openCloseMenu() {
   hamburger.classList.toggle('change');
   navSub.classList.toggle('nav-change');
   title.classList.toggle('title-change');
+  body.classList.toggle('fixed-position');
 }
 
 hamburger.addEventListener('click', openCloseMenu);
