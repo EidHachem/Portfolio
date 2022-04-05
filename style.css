@@ -66,6 +66,10 @@ body {
   text-decoration: none;
 }
 
+.nav-mail {
+  display: none;
+}
+
 .ham {
   display: block;
   padding: 5px;
@@ -441,12 +445,17 @@ footer {
     background-size: 12%;
   }
 
-  .ham {
+  .navbar {
+    margin: 8px 40px;
+  }
+
+  .ham,
+  .nav-arrow {
     display: none;
   }
 
   .nav-sub {
-    position: unset;
+    position: inherit;
     top: 0;
     right: 0;
     width: inherit;
@@ -457,6 +466,12 @@ footer {
     background-image: none;
     transition: none;
     transform: none;
+  }
+
+  .nav-mail {
+    display: inherit;
+    margin-top: -12px;
+    margin-left: 10px;
   }
 
   .head {
