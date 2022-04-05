@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[https://eidhachem.github.io/Portfolio/]
+[this sample](https://eidhachem.github.io/Portfolio/)
 
 
 ## Getting Started
@@ -46,11 +46,15 @@ Fork and run
 
 👤 David Ger
 
-- GitHub: [@EidHachem](https://github.com/ger619)
+- GitHub: [@ger619](https://github.com/ger619)
 
 👤 ndayishimiyeeric
 
-- GitHub: [@EidHachem](https://github.com/ndayishimiyeeric)
+- GitHub: [@ndayishimiyeeric](https://github.com/ndayishimiyeeric)
+
+👤 MaganaAsiati
+
+- GitHub: [@MaganaAsiati](https://github.com/MaganaAsiati)
 
 ## 🤝 Contributing
 
