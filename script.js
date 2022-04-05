@@ -1,16 +1,16 @@
-let hamburger = document.querySelector(".ham");  
-let navsub = document.querySelector(".nav-sub"); 
-let title = document.querySelector(".title"); 
+const hamburger = document.querySelector(".ham");  
+const navSub = document.querySelector(".nav-sub"); 
+const title = document.querySelector(".title"); 
 
 function openCloseMenu () {
   hamburger.classList.toggle("change"); 
-  navsub.classList.toggle("nav-change");
+  navSub.classList.toggle("nav-change");
   title.classList.toggle("title-change");
 }
 
 hamburger.addEventListener("click", openCloseMenu);
 
-let scrollToPortfolio = document.querySelector(".nav-portfolio");
+const scrollToPortfolio = document.querySelector(".nav-portfolio");
 
 function scrollToSectionPortfolio () {
   openCloseMenu();
@@ -18,7 +18,7 @@ function scrollToSectionPortfolio () {
 
 scrollToPortfolio.addEventListener("click", scrollToSectionPortfolio);
 
-let scrollToAbout = document.querySelector(".nav-about");
+const scrollToAbout = document.querySelector(".nav-about");
 
 function scrollToSectionContact () {
   openCloseMenu();
@@ -26,7 +26,7 @@ function scrollToSectionContact () {
 
 scrollToAbout.addEventListener("click", scrollToSectionContact);
 
-let scrollToContact = document.querySelector(".nav-contact");
+const scrollToContact = document.querySelector(".nav-contact");
 
 function scrollToSectionAbout () {
   openCloseMenu();  
