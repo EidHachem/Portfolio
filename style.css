@@ -388,7 +388,7 @@ hr {
 }
 
 .open-popup {
-  display: block; 
+  display: block;
 }
 
 .close-popup {
@@ -718,9 +718,9 @@ footer {
     display: none;
     position: fixed;
     left: 350px;
-    right: 0px;
+    right: 0;
     top: 10px;
-    bottom: 0px;
+    bottom: 0;
     width: 50vw;
     height: 90vh;
     margin: 0;
@@ -730,16 +730,13 @@ footer {
   }
 
   .open-popup {
-    display: flex; 
+    display: flex;
     flex-direction: column;
   }
 
   .popup-img {
     width: 700px;
     height: 450px;
-  }
-
-  .popup-img {
     margin: 0 auto;
   }
 

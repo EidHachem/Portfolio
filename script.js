@@ -37,23 +37,57 @@ function scrollToSectionAbout() {
 scrollToContact.addEventListener('click', scrollToSectionAbout);
 
 const project1Array = [
-    {title: 'Multi-Post Stories', image: ['images/home/Placeholder.svg', './images/home/projects-dialog.png'], description: ['A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!'], technologies: ['css', 'html', 'bootstrap', 'Ruby']}
-]
+  {
+    title: 'Multi-Post Stories',
+    image: ['images/home/Placeholder.svg', './images/home/projects-dialog.png'],
+    description: [
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!',
+    ],
+    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+  },
+];
 
 const project2Array = [
-  {title: 'Multi-Post Stories', image: ['images/home/Placeholder.svg', './images/home/projects-dialog.png'], description: ['A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!'], technologies: ['css', 'html', 'bootstrap', 'Ruby']}
-]
+  {
+    title: 'Multi-Post Stories',
+    image: ['images/home/Placeholder.svg', './images/home/projects-dialog.png'],
+    description: [
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!',
+    ],
+    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+  },
+];
 
 const project3Array = [
-  {title: 'Multi-Post Stories', image: ['images/home/Placeholder.svg', './images/home/projects-dialog.png'], description: ['A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!'], technologies: ['css', 'html', 'bootstrap', 'Ruby']}
-]
+  {
+    title: 'Multi-Post Stories',
+    image: ['images/home/Placeholder.svg', './images/home/projects-dialog.png'],
+    description: [
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!',
+    ],
+    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+  },
+];
 
 const project4Array = [
-{title: 'Multi-Post Stories', image: ['images/home/Placeholder.svg', './images/home/projects-dialog.png'], description: ['A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!'], technologies: ['css', 'html', 'bootstrap', 'Ruby']}
-]
+  {
+    title: 'Multi-Post Stories',
+    image: ['images/home/Placeholder.svg', './images/home/projects-dialog.png'],
+    description: [
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!',
+    ],
+    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+  },
+];
 
 const projects1Section = document.getElementById('project1');
-projects1Section.innerHTML = project1Array.map(() => `
+projects1Section.innerHTML = project1Array
+  .map(
+    () => `
  <article class="projects first-project">
       <div class="project-image">
         <img
@@ -85,10 +119,14 @@ projects1Section.innerHTML = project1Array.map(() => `
         <button type="button" id ="btn-1" value ="button1" data-modal="modal" class="project-button popup-btn">See Project</button>
       </div>
     </article>
-`).join('');
+`,
+  )
+  .join('');
 
 const projects2Section = document.getElementById('project2');
-projects2Section.innerHTML = project2Array.map(() => `
+projects2Section.innerHTML = project2Array
+  .map(
+    () => `
   <article class="projects second-project">
     <div class="project-image project-2-image">
       <img
@@ -120,10 +158,14 @@ projects2Section.innerHTML = project2Array.map(() => `
       <button type="button" id ="btn-2" value ="button2" data-modal="modal" class="project-button popup-btn">See Project</button>
     </div>
   </article>
-`).join('');
+`,
+  )
+  .join('');
 
 const projects3Section = document.getElementById('project3');
-projects3Section.innerHTML = project3Array.map(() => `
+projects3Section.innerHTML = project3Array
+  .map(
+    () => `
   <article class="projects third-project">
     <div class="project-image">
       <img
@@ -157,10 +199,14 @@ projects3Section.innerHTML = project3Array.map(() => `
   </article>
 
 
-`).join('');
+`,
+  )
+  .join('');
 
 const projects4Section = document.getElementById('project4');
-projects4Section.innerHTML = project4Array.map(() => `
+projects4Section.innerHTML = project4Array
+  .map(
+    () => `
   <article class="projects forth-project" ">
       <div class="project-image project-2-image">
         <img class="project" src="${project4Array[0].image[0]}" alt="Project" />
@@ -188,17 +234,17 @@ projects4Section.innerHTML = project4Array.map(() => `
         <button type="button" id ="btn-4" value ="button4" data-modal="modal" class="project-button popup-btn">See Project</button>
       </div>
     </article>
-`).join('');
+`,
+  )
+  .join('');
 
 const modalSection = document.querySelector('.popup');
 const openPopup = document.getElementsByClassName('popup-btn');
 const closePopup = document.querySelector('.close-btn');
-for(let i=0; i<openPopup.length; i++){
-    openPopup[i].addEventListener("click", function(){ modalSection.classList.toggle('open-popup'); })
+for (let i = 0; i < openPopup.length; i += 1) {
+  openPopup[i].addEventListener('click', () => modalSection.classList.toggle('open-popup'));
 }
 function closeModal() {
   modalSection.classList.toggle('open-popup');
 }
-closePopup.addEventListener('click', closeModal)
-
-
+closePopup.addEventListener('click', closeModal);
