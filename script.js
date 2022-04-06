@@ -82,7 +82,7 @@ projects1Section.innerHTML = project1Array.map(() => `
           </li>
           <li class="langs-used">${project1Array[0].technologies[3]}</li>
         </ul>
-        <button type="button" class="project-button popup-btn">See Project</button>
+        <button type="button" id ="btn-1" value ="button1" data-modal="modal" class="project-button popup-btn">See Project</button>
       </div>
     </article>
 `).join('');
@@ -117,7 +117,7 @@ projects2Section.innerHTML = project2Array.map(() => `
         </li>
         <li class="langs-used">${project2Array[0].technologies[3]}</li>
       </ul>
-      <button type="button" class="project-button popup-btn">See Project</button>
+      <button type="button" id ="btn-2" value ="button2" data-modal="modal" class="project-button popup-btn">See Project</button>
     </div>
   </article>
 `).join('');
@@ -152,7 +152,7 @@ projects3Section.innerHTML = project3Array.map(() => `
         </li>
         <li class="langs-used">${project3Array[0].technologies[3]}</li>
       </ul>
-      <button type="button" class="project-button popup-btn">See Project</button>
+      <button type="button" id ="btn-3" value ="button3" data-modal="modal" class="project-button popup-btn">See Project</button>
     </div>
   </article>
 
@@ -185,7 +185,20 @@ projects4Section.innerHTML = project4Array.map(() => `
           </li>
           <li class="langs-used">${project4Array[0].technologies[3]}</li>
         </ul>
-        <button type="button" class="project-button popup-btn">See Project</button>
+        <button type="button" id ="btn-4" value ="button4" data-modal="modal" class="project-button popup-btn">See Project</button>
       </div>
     </article>
 `).join('');
+
+const modalSection = document.querySelector('.popup');
+const openPopup = document.getElementsByClassName('popup-btn');
+const closePopup = document.querySelector('.close-btn');
+for(let i=0; i<openPopup.length; i++){
+    openPopup[i].addEventListener("click", function(){ modalSection.classList.toggle('open-popup'); })
+}
+function closeModal() {
+  modalSection.classList.toggle('open-popup');
+}
+closePopup.addEventListener('click', closeModal)
+
+
