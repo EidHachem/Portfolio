@@ -17,6 +17,11 @@ body {
   margin: 0;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 .title-change {
   visibility: hidden;
 }
@@ -43,6 +48,7 @@ body {
   flex-direction: column;
   background-color: #191765;
   background-image: url(./images/mobile/shapes\ mobile\ menu.svg);
+  background-repeat: no-repeat;
   transition: transform 0.3s ease-in;
   transform: translate(100%);
 }
@@ -304,6 +310,7 @@ hr {
   align-items: center;
   justify-content: space-around;
   padding-left: 0;
+  max-width: 600px;
 }
 
 .langs-used {
@@ -364,6 +371,81 @@ hr {
 
 .project-button:focus {
   background-color: #488edf;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(-20deg, #0d1753 0%, #09133b 100%);
+  padding: 5px;
+}
+
+.open-popup {
+  display: block;
+}
+
+.close-popup {
+  display: none;
+}
+
+.close-btn {
+  font-size: 36px;
+}
+
+.popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup-header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.popup-header h3,
+.popup p {
+  font-family: roboto, sans-serif;
+  color: #fff;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.live-btn {
+  display: flex;
+  color: #fff;
+  background-color: #7d73fc;
+  border: none;
+  font-size: 12px;
+  padding: 12px;
+  max-width: 90px;
+}
+
+.github-btn {
+  display: flex;
+  color: #fff;
+  background-color: #7d73fc;
+  border: none;
+  font-size: 12px;
+  padding: 12px;
+  max-width: 110px;
+}
+
+button span img {
+  height: 12px;
+  width: 15px;
 }
 
 .contact {
@@ -630,6 +712,46 @@ footer {
   #message {
     margin-left: 25%;
     margin-right: 25%;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    left: 350px;
+    right: 0;
+    top: 10px;
+    bottom: 0;
+    width: 50vw;
+    height: 90vh;
+    margin: 0;
+    background: linear-gradient(-20deg, #0d1753 0%, #09133b 100%);
+    padding: 10px;
+    text-align: center;
+  }
+
+  .open-popup {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popup-img {
+    width: 700px;
+    height: 450px;
+    margin: 0 auto;
+  }
+
+  .popup p {
+    margin: 25px 40px;
+  }
+
+  .popup-langs {
+    margin-left: 180px;
+    width: 50%;
+  }
+
+  .btn-container {
+    flex-direction: row;
+    margin-left: 255px;
   }
 
   @keyframes animateName {
