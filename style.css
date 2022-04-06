@@ -17,6 +17,11 @@ body {
   margin: 0;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 .title-change {
   visibility: hidden;
 }
@@ -43,6 +48,7 @@ body {
   flex-direction: column;
   background-color: #191765;
   background-image: url(./images/mobile/shapes\ mobile\ menu.svg);
+  background-repeat: no-repeat;
   transition: transform 0.3s ease-in;
   transform: translate(100%);
 }
@@ -304,6 +310,7 @@ hr {
   align-items: center;
   justify-content: space-around;
   padding-left: 0;
+  max-width: 600px;
 }
 
 .langs-used {
@@ -364,6 +371,65 @@ hr {
 
 .project-button:focus {
   background-color: #488edf;
+}
+
+.popup {
+  display: none;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.open-popup {
+  display: block;
+}
+
+.popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup-header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.popup-header h3,
+.popup p {
+  font-family: roboto, sans-serif;
+  color: #fff;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.live-btn {
+  display: flex;
+  color: #fff;
+  background-color: #7d73fc;
+  border: none;
+  font-size: 12px;
+  padding: 12px;
+  max-width: 90px;
+}
+
+.github-btn {
+  display: flex;
+  color: #fff;
+  background-color: #7d73fc;
+  border: none;
+  font-size: 12px;
+  padding: 12px;
+  max-width: 110px;
+}
+
+button span img {
+  height: 12px;
+  width: 15px;
 }
 
 .contact {
