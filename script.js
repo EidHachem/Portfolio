@@ -45,6 +45,8 @@ const project1Array = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!',
     ],
     technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    live: 'https://eidhachem.github.io/Portfolio/',
+    source: 'https://github.com/EidHachem/Portfolio',
   },
 ];
 
@@ -57,6 +59,8 @@ const project2Array = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!',
     ],
     technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    live: 'https://eidhachem.github.io/Portfolio/',
+    source: 'https://github.com/EidHachem/Portfolio',
   },
 ];
 
@@ -69,6 +73,8 @@ const project3Array = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!',
     ],
     technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    live: 'https://eidhachem.github.io/Portfolio/',
+    source: 'https://github.com/EidHachem/Portfolio',
   },
 ];
 
@@ -81,6 +87,8 @@ const project4Array = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!',
     ],
     technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    live: 'https://eidhachem.github.io/Portfolio/',
+    source: 'https://github.com/EidHachem/Portfolio',
   },
 ];
 
@@ -235,6 +243,39 @@ projects4Section.innerHTML = project4Array
       </div>
     </article>
 `,
+  )
+  .join('');
+
+const popupSection = document.getElementById('popup');
+popupSection.innerHTML = project4Array
+  .map(
+    () => `
+  <div class="popup-header">
+        <h3>${project4Array[0].title}</h3>
+        <a class="close-btn" href="#123">&times;</a>
+      </div>
+      <img class="popup-img" src="${project4Array[0].image[0]}" alt="Project preview">
+      <p>${project4Array[0].description[0]}</p>
+      <ul class="project-langs popup-langs">
+        <li class="langs-used">${project4Array[0].technologies[0]}</li>
+        <li>
+          <img src="images/home/split.svg" alt="split" class="lang-split" />
+        </li>
+        <li class="langs-used">${project4Array[0].technologies[1]}</li>
+        <li>
+          <img src="images/home/split.svg" alt="split" class="lang-split" />
+        </li>
+        <li class="langs-used">${project4Array[0].technologies[2]}</li>
+        <li>
+          <img src="images/home/split.svg" alt="split" class="lang-split" />
+        </li>
+        <li class="langs-used">${project4Array[0].technologies[3]}</li>
+      </ul>
+      <div class="btn-container">
+        <button type="button" class="live-btn">See Live <a href="${project4Array[0].live}"></a><span><img src="./images/home/live.svg" alt="go live"></span></button>
+        <button type="button" class="github-btn">See Source <a href="${project4Array[0].source}"></a><span><img src="./images/social/github.svg" alt="Github"></span></button>
+      </div>
+  `,
   )
   .join('');
 
