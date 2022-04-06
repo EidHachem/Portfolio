@@ -741,11 +741,17 @@ footer {
   }
 
   .popup p {
-    margin: 0 40px;
+    margin: 25px 40px;
   }
 
   .popup-langs {
-    margin-left: 70px;
+    margin-left: 180px;
+    width: 50%;
+  }
+
+  .btn-container {
+    flex-direction: row;
+    margin-left: 255px;
   }
 
   @keyframes animateName {
