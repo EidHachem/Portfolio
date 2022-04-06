@@ -385,7 +385,6 @@ hr {
   margin: 0;
   background: linear-gradient(-20deg, #0d1753 0%, #09133b 100%);
   padding: 5px;
-  
 }
 
 .open-popup {
@@ -713,6 +712,43 @@ footer {
   #message {
     margin-left: 25%;
     margin-right: 25%;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    left: 350px;
+    right: 0px;
+    top: 10px;
+    bottom: 0px;
+    width: 50vw;
+    height: 90vh;
+    margin: 0;
+    background: linear-gradient(-20deg, #0d1753 0%, #09133b 100%);
+    padding: 35px;
+    text-align: center;
+  }
+
+  .open-popup {
+    display: flex; 
+    flex-direction: column;
+  }
+
+  .popup-img {
+    width: 700px;
+    height: 450px;
+  }
+
+  .popup-img {
+    margin: 0 auto;
+  }
+
+  .popup p {
+    margin: 0 40px;
+  }
+
+  .popup-langs {
+    margin-left: 70px;
   }
 
   @keyframes animateName {
