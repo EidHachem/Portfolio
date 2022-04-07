@@ -513,6 +513,11 @@ footer {
   color: #ebebff;
 }
 
+.error {
+  color: #fff;
+  padding-bottom: 15px;
+}
+
 @media (min-width: 768px) {
   body {
     background-image: url(images/home/circle\ 2\ header.svg);

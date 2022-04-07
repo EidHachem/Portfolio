@@ -289,3 +289,27 @@ function closeModal() {
   modalSection.classList.toggle('open-popup');
 }
 closePopup.addEventListener('click', closeModal);
+
+function outputMessage(accepted) {
+  const message = document.getElementById('msg');
+  if (accepted) {
+    message.classList.remove('error');
+  } else {
+    message.classList.add('error');
+    message.innerHTML = 'Kindly enter your email in lowercase letters';
+  }
+}
+
+const form = document.querySelector('.form-container');
+
+form.addEventListener('submit', (element) => {
+  element.preventDefault();
+  const email = document.getElementById('mail').value;
+  if (email !== email.toLowerCase()) {
+    outputMessage(false);
+    return;
+  }
+  form.submit();
+  form.reset();
+  outputMessage(true);
+});
