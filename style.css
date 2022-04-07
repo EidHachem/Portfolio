@@ -515,6 +515,7 @@ footer {
 
 .error {
   color: #fff;
+  padding-bottom: 15px;
 }
 
 @media (min-width: 768px) {
