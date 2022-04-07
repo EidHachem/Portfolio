@@ -313,3 +313,27 @@ form.addEventListener('submit', (element) => {
   form.reset();
   outputMessage(true);
 });
+
+const nameRetrive = document.getElementById('name');
+const mailRetrive = document.getElementById('mail');
+const msgRetrive = document.getElementById('message');
+
+function saveInputs() {
+  const inputs = {
+    name: nameRetrive.value,
+    email: mailRetrive.value,
+    msg: msgRetrive.value,
+  };
+
+  localStorage.setItem('userInputs', JSON.stringify(inputs));
+}
+
+nameRetrive.addEventListener('focusout', saveInputs);
+mailRetrive.addEventListener('focusout', saveInputs);
+msgRetrive.addEventListener('focusout', saveInputs);
+
+const retrive = JSON.parse(localStorage.getItem('userInputs'));
+
+document.getElementById('name').value = retrive.name;
+document.getElementById('mail').value = retrive.email;
+document.getElementById('message').value = retrive.msg;
