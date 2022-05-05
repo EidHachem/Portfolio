@@ -22,6 +22,10 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
 .title-change {
   visibility: hidden;
 }
@@ -463,7 +467,7 @@ button span img {
 
 .contact p {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;

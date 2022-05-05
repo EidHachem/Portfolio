@@ -39,14 +39,17 @@ scrollToContact.addEventListener('click', scrollToSectionAbout);
 const project1Array = [
   {
     title: 'Multi-Post Stories',
-    image: ['images/home/Placeholder.svg', './images/home/projects-dialog.png'],
+    image: [
+      './images/home/awesome-books-list.png',
+      './images/home/awesome-books-add.png',
+    ],
     description: [
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+      ' Awesome Books is a Libray where you can add a book title and author name and save them to the Local Storage. it has functionality of a SPA where you can add, view Added Book(s) and a contact section. this is all done using javascript modules. ',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellendus voluptas consequatur officiis quae quos vel dolorem deserunt ab magni, vero, quo aliquid et eum optio illum. Animi nemo aspernatur aperiam iusto quisquam eaque voluptatum optio, tempore sint expedita nulla deleniti consectetur repellendus numquam cumque autem saepe libero harum ab!',
     ],
-    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
-    live: 'https://eidhachem.github.io/Portfolio/',
-    source: 'https://github.com/EidHachem/Portfolio',
+    technologies: ['css', 'html', 'Javascript', ' '],
+    live: 'https://eidhachem.github.io/es6-awesome-books/',
+    source: 'https://github.com/EidHachem/es6-awesome-books',
   },
 ];
 
@@ -119,15 +122,11 @@ projects1Section.innerHTML = project1Array
             <img src="images/home/split.svg" alt="split" class="lang-split" />
           </li>
           <li class="langs-used">${project1Array[0].technologies[2]}</li>
-          <li>
-            <img src="images/home/split.svg" alt="split" class="lang-split" />
-          </li>
-          <li class="langs-used">${project1Array[0].technologies[3]}</li>
         </ul>
         <button type="button" id ="btn-1" value ="button1" data-modal="modal" class="project-button popup-btn">See Project</button>
       </div>
     </article>
-`,
+`
   )
   .join('');
 
@@ -166,7 +165,7 @@ projects2Section.innerHTML = project2Array
       <button type="button" id ="btn-2" value ="button2" data-modal="modal" class="project-button popup-btn">See Project</button>
     </div>
   </article>
-`,
+`
   )
   .join('');
 
@@ -207,7 +206,7 @@ projects3Section.innerHTML = project3Array
   </article>
 
 
-`,
+`
   )
   .join('');
 
@@ -242,7 +241,7 @@ projects4Section.innerHTML = project4Array
         <button type="button" id ="btn-4" value ="button4" data-modal="modal" class="project-button popup-btn">See Project</button>
       </div>
     </article>
-`,
+`
   )
   .join('');
 
@@ -254,8 +253,8 @@ popupSection.innerHTML = project4Array
         <h3>${project4Array[0].title}</h3>
         <a class="close-btn" href="#123">&times;</a>
       </div>
-      <img class="popup-img" src="${project4Array[0].image[0]}" alt="Project preview">
-      <p>${project4Array[0].description[0]}</p>
+      <img class="popup-img" src="${project1Array[0].image[1]}" alt="Project preview">
+      <p>${project1Array[0].description[0]}</p>
       <ul class="project-langs popup-langs">
         <li class="langs-used">${project4Array[0].technologies[0]}</li>
         <li>
@@ -266,16 +265,13 @@ popupSection.innerHTML = project4Array
           <img src="images/home/split.svg" alt="split" class="lang-split" />
         </li>
         <li class="langs-used">${project4Array[0].technologies[2]}</li>
-        <li>
-          <img src="images/home/split.svg" alt="split" class="lang-split" />
-        </li>
-        <li class="langs-used">${project4Array[0].technologies[3]}</li>
+        <li class="langs-used"></li>
       </ul>
       <div class="btn-container">
-        <button type="button" class="live-btn">See Live <a href="${project4Array[0].live}"></a><span><img src="./images/home/live.svg" alt="go live"></span></button>
-        <button type="button" class="github-btn">See Source <a href="${project4Array[0].source}"></a><span><img src="./images/social/github.svg" alt="Github"></span></button>
+      <a href="${project1Array[0].live}"><button type="button" class="live-btn">See Live <span><img src="./images/home/live.svg" alt="go live"></span></button></a>
+      <a href="${project1Array[0].source}"><button type="button" class="github-btn">See Source <span><img src="./images/social/github.svg" alt="Github"></span></button></a>
       </div>
-  `,
+  `
   )
   .join('');
 
@@ -283,8 +279,11 @@ const modalSection = document.querySelector('.popup');
 const openPopup = document.getElementsByClassName('popup-btn');
 const closePopup = document.querySelector('.close-btn');
 for (let i = 0; i < openPopup.length; i += 1) {
-  openPopup[i].addEventListener('click', () => modalSection.classList.toggle('open-popup'));
+  openPopup[i].addEventListener('click', () =>
+    modalSection.classList.toggle('open-popup')
+  );
 }
+
 function closeModal() {
   modalSection.classList.toggle('open-popup');
 }
